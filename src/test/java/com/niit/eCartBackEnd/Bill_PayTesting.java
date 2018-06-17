@@ -65,17 +65,17 @@ public class Bill_PayTesting
 	public void savepay()
 	{
 		System.out.println("HI");
-		payment.setF_name("Kaustubh");
+		payment.setF_name("sandipan");
 		System.out.println("HI");
-		payment.setL_name("Kallianpur");
+		payment.setL_name("faridabad");
 		System.out.println("HI");
-		payment.setMail_id("kk@rocketmail.com");
+		payment.setMail_id("ok@rocketmail.com");
 		payment.setMobile("7259292695");
 		System.out.println("HI");
 		payment.setSt_line1("72, 11th Main Road");
-		payment.setSt_line2("Malleswaram");
-		payment.setCity("Bangalore");
-		payment.setState("Karnataka");
+		payment.setSt_line2("dabua");
+		payment.setCity("faridabad");
+		payment.setState("haryana");
 		payment.setZip_code(560003);
 		paymentDAO.addPaymentInfo(payment);
 		System.out.println("success");
@@ -84,7 +84,7 @@ public class Bill_PayTesting
 	
 	public void getpay()
 	{
-		payment = paymentDAO.getPaymentInfo("kk@rocketmail.com");
+		payment = paymentDAO.getPaymentInfo("ok@rocketmail.com");
 		System.out.println("Name -"+payment.getF_name()+" "+payment.getL_name());
 	}
 	
