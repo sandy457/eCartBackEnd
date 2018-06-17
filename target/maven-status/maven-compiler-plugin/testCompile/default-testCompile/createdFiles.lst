@@ -1,0 +1,11 @@
+com\niit\eCartBackEnd\JUnitTest\SupplierDAOTestCase.class
+com\niit\eCartBackEnd\JUnitTest\UserDAOTestCase.class
+com\niit\eCartBackEnd\TestSupplierDAO.class
+com\niit\eCartBackEnd\TestUserDAO.class
+com\niit\eCartBackEnd\Bill_PayTesting.class
+com\niit\eCartBackEnd\GenerateRandom.class
+com\niit\eCartBackEnd\TestSaveCart.class
+com\niit\eCartBackEnd\JUnitTest\ProductDAOTestCase.class
+com\niit\eCartBackEnd\TestCategoryDAO.class
+com\niit\eCartBackEnd\JUnitTest\CategoryDAOTestCase.class
+com\niit\eCartBackEnd\TestProductDAO.class
