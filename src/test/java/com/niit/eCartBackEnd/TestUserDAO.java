@@ -99,7 +99,7 @@ public class TestUserDAO
 	public void getUser()
 	{
 		log.debug("Starting of method getUser");
-		String id = "kaustubh@gmail.com";
+		String id = "sandipan@gmail.com";
 		user = userDAO.getUser(id);
 		System.out.println(user.getF_name());
 		log.debug("Ending of method getUser");
