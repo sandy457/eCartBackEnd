@@ -38,8 +38,8 @@ public class UserDAOTestCase
 //	@Test
 	public void getUserTestCase()
 	{
-		user = userDAO.getUser("kaustubh@gmail.com");
-		Assert.assertEquals("User Test Case", "KAUSTUBH", user.getF_name());
+		user = userDAO.getUser("sandipan@gmail.com");
+		Assert.assertEquals("User Test Case", "sandipan", user.getF_name());
 
 		//assertNotNull and assertNull are functions that can be used...
 	}
@@ -49,8 +49,8 @@ public class UserDAOTestCase
 	public void validate()
 	{
 //		working properly
-		user = userDAO.validateUser("kaustubh@gmail.com", "kaustubh");
-		Assert.assertEquals("Validate User", "KAUSTUBH", user.getF_name());
+		user = userDAO.validateUser("sandipan@gmail.com", "sandipan");
+		Assert.assertEquals("Validate User", "sandipan", user.getF_name());
 		Assert.assertNotNull("Validate New User",user);
 	}
 	
