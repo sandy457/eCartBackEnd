@@ -33,7 +33,7 @@ public class TestSupplierDAO
 	{
 		supplier.setId("SUP_001");
 		supplier.setName("Lalbagh Nursery");
-		supplier.setAddress("Lalbagh Botanical Garden, Bangalore");
+		supplier.setAddress("ajranda garden, haryana");
 		supplierDAO.addSupplier(supplier);
 		System.out.println("Supplier Added");
 	}
@@ -41,8 +41,8 @@ public class TestSupplierDAO
 	public void update()
 	{
 		supplier.setId("SUP_001");
-		supplier.setName("Kaustubh Nursery");
-		supplier.setAddress("Malleswaram");
+		supplier.setName("sandipan Nursery");
+		supplier.setAddress("faridabad");
 		supplierDAO.updateSupplier(supplier);
 		System.out.println("Supplier Updated");
 	}
